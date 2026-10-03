@@ -36,23 +36,23 @@ Ikuti langkah-langkah di bawah ini untuk menjalankan project ini di lingkungan l
 ```bash
 git clone [https://github.com/RexTy-21/Web-Pemesanan-CafeQR.git](https://github.com/RexTy-21/Web-Pemesanan-CafeQR.git)
 cd Web-Pemesanan-CafeQR
-2. Install Dependensi PHP & JavaScript
+### 2. Install Dependensi PHP & JavaScript
 composer install
 npm install
-3. Salin File Environtment
+### 3. Salin File Environtment
 cp .env.example .env
-4. Generasi Application Key
+### 4. Generasi Application Key
 php artisan key:generate
-5. Konfigurasi Database
+### 5. Konfigurasi Database
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=db_cafe_qr
 DB_USERNAME=root
 DB_PASSWORD=
-6. Jalankan Migrasi Database
+### 6. Jalankan Migrasi Database
 php artisan migrate --seed
-7. Jalankan Server
+### 7. Jalankan Server
 php artisan serve
 npm run dev
 👤 Penulis / Pengembang
